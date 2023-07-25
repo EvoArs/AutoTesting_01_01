@@ -10,8 +10,10 @@ name: Java CI with Gradle
 on:
   push:
     branches:
+    - main
     - testng
     - junit4
+     
      
 jobs:
   build:
